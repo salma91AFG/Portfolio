@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio – Votre Nom</title>
+  <link rel="stylesheet" href="CSS.CSS" />
+</head>
+<body>
+  <header class="container">
+    <h1>Portfolio</h1>
+    <nav>
+      <a href="#apropos">À propos</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="apropos" class="hero">
+      <h2>Salut, je suis Salma</h2>
+      <p>Analyste de données. J’aide les équipes à passer des questions aux réponses exploitables.</p>
+    </section>
+
+    <section id="projets">
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Rechercher un projet…" aria-label="Rechercher" />
+        <select id="tagFilter" aria-label="Filtrer par tag">
+          <option value="">Tous les tags</option>
+          <option value="BI">BI</option>
+          <option value="ML">ML</option>
+          <option value="Web">Web</option>
+        </select>
+      </div>
+
+      <div id="cards" class="grid">
+        <article class="card" data-tags="BI,Web">
+          <h3>Dashboard Ventes</h3>
+          <p>Power BI, DAX, storytelling.</p>
+        </article>
+        <article class="card" data-tags="ML">
+          <h3>Prédiction churn</h3>
+          <p>Python, scikit-learn, métriques.</p>
+        </article>
+        <article class="card" data-tags="Web">
+          <h3>Site vitrine</h3>
+          <p>HTML/CSS/JS, accessibilité, SEO.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Écrivez-moi : <a href="mailto:xxx">s_djaid@esi.dz</a></p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <small>&copy; <span id="year"></span> Portfolio</small>
+  </footer>
+
+  <script src="js.js" defer></script>
+</body>
+</html>
