@@ -2,13 +2,13 @@
 
 const projectsData = [
   {
-    id: "dashboard-ventes",
-    titre: "Dashboard Ventes",
-    tags: ["BI", "Web"],
-    resumeCourt: "Power BI, DAX, storytelling sur les performances commerciales.",
-    resumeDetail: "Dashboard interactif pour suivre le chiffre d’affaires, la marge, les promotions et les performances par région et produit.",
-    lienGithub: "https://github.com/TON-UTILISATEUR/TON-REPO-DASHBOARD",
-    image: "img/dashboard-ventes.png"
+    id: "stackoverflow2024",
+    titre: "Analyse mondiale des développeurs – Stack Overflow Survey",
+    tags: ["Python", "EDA", "Data Analysis"],
+    resumeCourt: "Analyse complète du Stack Overflow Survey : nettoyage, exploration, visualisations et insights stratégiques.",
+    resumeDetail: "Projet analytique complet réalisé dans le cadre d’un capstone Coursera. Nettoyage avancé, préparation, analyse exploratoire et visualisations pour comprendre les tendances globales : langages les plus utilisés, salaires, expérience, préférences technologiques et évolution du marché. Livrables : notebooks documentés, dashboard et présentation finale.",
+    lienGithub: "https://github.com/TON-UTILISATEUR/TON-REPO-CAPSTONE",
+    image: "img/stackoverflow.png"
   },
   {
     id: "olist-wrangling",
