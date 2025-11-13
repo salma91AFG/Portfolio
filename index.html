@@ -3,26 +3,54 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portfolio – Salma</title>
-  <link rel="stylesheet" href="CSS.CSS" />
+
+  <title>Salma Djaid</title>
+  <!-- CSS global -->
+  <link rel="stylesheet" href="style.css" />
+
 </head>
+
 <body>
-  <header class="container">
-    <h1>Portfolio</h1>
+  <!-- HEADER -->
+  <header class="container header">
+    <h1>Salma Djaid</h1>
     <nav>
       <a href="#apropos">À propos</a>
       <a href="#projets">Projets</a>
+      <a href="#competences">Compétences</a>
+      <a href="#formation">Formation</a>
+      <a href="#certificats">Certificats</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main class="container">
+
+    <!-- SECTION À PROPOS -->
     <section id="apropos" class="hero">
-      <h2>Salut, je suis Salma</h2>
-      <p>Analyste de données. J’aide les équipes à passer des questions aux réponses exploitables.</p>
+      <div class="hero-layout">
+        <div class="hero-text">
+          <h2>Je suis Salma, professionnelle en technologies de l’information.</h2>
+          <p>Je conçois des solutions data, BI et outils analytiques qui transforment les besoins métier en résultats concrets.
+Modélisation, analyse, tableaux de bord, automatisation.</p>
+
+          <a class="btn-primary" href="cv_salma.pdf" target="_blank" rel="noopener noreferrer">
+            Télécharger mon CV
+          </a>
+        </div>
+
+        <!-- Photo -->
+        <div class="hero-photo-wrapper">
+          <img src="img/moi.jpg" alt="Photo de Salma" class="hero-photo">
+        </div>
+      </div>
     </section>
 
+    <!-- SECTION PROJETS (remplie dynamiquement) -->
     <section id="projets">
+      <h2>Projets</h2>
+
+      <!-- Filtres -->
       <div class="toolbar">
         <input id="search" type="search" placeholder="Rechercher un projet…" aria-label="Rechercher" />
         <select id="tagFilter" aria-label="Filtrer par tag">
@@ -34,31 +62,57 @@
       </div>
 
       <div id="cards" class="grid">
-        <article class="card" data-tags="BI,Web">
-          <h3>Dashboard Ventes</h3>
-          <p>Power BI, DAX, storytelling.</p>
-        </article>
-        <article class="card" data-tags="ML">
-          <h3>Prédiction churn</h3>
-          <p>Python, scikit-learn, métriques.</p>
-        </article>
-        <article class="card" data-tags="Web">
-          <h3>Site vitrine</h3>
-          <p>HTML/CSS/JS, accessibilité, SEO.</p>
-        </article>
+        <!-- Les cartes seront générées automatiquement par script.js -->
       </div>
     </section>
 
+    <!-- SECTION COMPÉTENCES (remplie dynamiquement) -->
+    <section id="competences">
+      <h2>Compétences</h2>
+      <div id="skillsGrid" class="grid skills-grid">
+        <!-- Généré par script.js -->
+      </div>
+    </section>
+
+    <!-- SECTION FORMATION -->
+    <!-- FORMATION (générée dynamiquement) -->
+<section id="formation">
+  <h2>Formation</h2>
+  <div id="formationList" class="timeline">
+    <!-- rempli par script.js -->
+  </div>
+</section>
+
+<!-- CERTIFICATS (générés dynamiquement) -->
+<section id="certificats">
+  <h2>Certificats</h2>
+  <div id="certificationsGrid" class="grid">
+    <!-- rempli par script.js -->
+  </div>
+</section>
+
+
+    <!-- SECTION CONTACT -->
     <section id="contact">
       <h2>Contact</h2>
-      <p>Écrivez-moi : <a href="mailto:xxx">s_djaid@esi.dz</a></p>
+
+      <p>Mail : <a href="mailto:djaidsalma@gmail.com">s_djaid@esi.dz</a></p>
+      <p>GitHub : 
+        <a href="https://github.com/salma91AFG" target="_blank">
+          @salma91AFG
+        </a>
+      </p>
     </section>
+
   </main>
 
+  <!-- FOOTER -->
   <footer class="container footer">
-    <small>&copy; <span id="year"></span> Portfolio</small>
+    <small>&copy; <span id="year"></span> Portfolio – Salma</small>
   </footer>
 
-  <script src="js.js" defer></script>
+  <!-- CHARGEMENT DES DONNÉES + SCRIPT DYNAMIQUE -->
+  <script src="data.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
