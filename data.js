@@ -7,7 +7,7 @@ const projectsData = [
     tags: ["Python", "EDA", "Data Analysis"],
     resumeCourt: "Analyse complète du Stack Overflow Survey : nettoyage, exploration, visualisations et insights stratégiques.",
     resumeDetail: "Projet analytique complet réalisé dans le cadre d’un capstone Coursera. Nettoyage avancé, préparation, analyse exploratoire et visualisations pour comprendre les tendances globales : langages les plus utilisés, salaires, expérience, préférences technologiques et évolution du marché. Livrables : notebooks documentés, dashboard et présentation finale.",
-    lienGithub: "https://github.com/TON-UTILISATEUR/TON-REPO-CAPSTONE",
+    lienGithub: "#",
     image: "img/stackoverflow.png"
   },
   {
@@ -18,15 +18,6 @@ const projectsData = [
     resumeDetail: "Projet de préparation et d’analyse du dataset Olist (e-commerce brésilien). Travail complet de data wrangling : correction des types, normalisation des textes, suppression des doublons et traitement des valeurs manquantes. Création de variables clés telles que la durée réelle de livraison, le retard, le montant total de commande et les indicateurs de performance logistique. Jointures multi-tables pour enrichir les données clients. Analyse exploratoire axée sur la satisfaction : impact du retard, catégories de produits à risque, performance des vendeurs et dynamique des livraisons.",
     lienGithub: "https://github.com/salma91AFG/data_wrangling.git",
     image: "img/dataWrangling.png"
-  },
-  {
-    id: "Conception BDD CRM",
-    titre: "Site vitrine de portfolio",
-    tags: ["Web"],
-    resumeCourt: "Site statique HTML/CSS/JS pour présenter mon profil.",
-    resumeDetail: "Page one-page avec navigation fluide, filtres sur les projets et déploiement via GitHub Pages.",
-    lienGithub: "https://github.com/TON-UTILISATEUR/TON-REPO-PORTFOLIO",
-    image: "img/portfolio.png"
   }
 
   
