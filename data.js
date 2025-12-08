@@ -6,17 +6,15 @@ const projectsData = [
     titre: "Analyse du paysage technologique 2024 – Stack Overflow Developer Survey",
 
     tags: [
-        "Python",
-        "Pandas",
-        "Seaborn",
-        "Matplotlib",
-        "EDA",
-        "Data Cleaning",
-        "Survey Analysis",
-        "Web Scraping",
-        "API Integration",
-        "Data Visualization",
-        "Tech Trends"
+      "Data Analysis",
+      "EDA",
+      "Data Cleaning",
+      "Survey Analysis",
+      "Tech Trends",
+      "Web Scraping",
+      "API Integration",
+      "Python Visualization",
+      "Python"
     ],
 
     resumeCourt: 
