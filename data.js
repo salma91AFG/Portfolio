@@ -14,7 +14,8 @@ const projectsData = [
       "Web Scraping",
       "API Integration",
       "Python Visualization",
-      "Python"
+      "Python",
+      "Data Wrangling"
     ],
 
     resumeCourt: 
@@ -29,7 +30,7 @@ const projectsData = [
   {
     id: "olist-wrangling",
     titre: "Analyse Logistique & Satisfaction Client – Données E-commerce (Dataset Kaggle)",
-    tags: ["Python", "EDA", "Data Wrangling"],
+    tags: ["Python", "EDA", "Data Wrangling","Data Analysis","EDA", "Data Cleaning","E-commerce"],
     resumeCourt: "Nettoyage et transformation d’un dataset e-commerce avec Python : normalisation, traitement des valeurs manquantes, création d’indicateurs logistiques et analyse des facteurs qui influencent la satisfaction client.",
     resumeDetail: "Projet de préparation et d’analyse du dataset Olist (e-commerce brésilien). Travail complet de data wrangling : correction des types, normalisation des textes, suppression des doublons et traitement des valeurs manquantes. Création de variables clés telles que la durée réelle de livraison, le retard, le montant total de commande et les indicateurs de performance logistique. Jointures multi-tables pour enrichir les données clients. Analyse exploratoire axée sur la satisfaction : impact du retard, catégories de produits à risque, performance des vendeurs et dynamique des livraisons.",
     lienGithub: "https://github.com/salma91AFG/data_wrangling.git",
