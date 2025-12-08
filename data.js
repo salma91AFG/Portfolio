@@ -3,11 +3,29 @@
 const projectsData = [
   {
     id: "stackoverflow2024",
-    titre: "Analyse mondiale des développeurs – Stack Overflow Survey",
-    tags: ["Python", "EDA", "Data Analysis"],
-    resumeCourt: "Analyse complète du Stack Overflow Survey : nettoyage, exploration, visualisations et insights stratégiques.",
-    resumeDetail: "Projet analytique complet réalisé dans le cadre d’un capstone Coursera. Nettoyage avancé, préparation, analyse exploratoire et visualisations pour comprendre les tendances globales : langages les plus utilisés, salaires, expérience, préférences technologiques et évolution du marché. Livrables : notebooks documentés, dashboard et présentation finale.",
-    lienGithub: "#",
+    titre: "Analyse du paysage technologique 2024 – Stack Overflow Developer Survey",
+
+    tags: [
+        "Python",
+        "Pandas",
+        "Seaborn",
+        "Matplotlib",
+        "EDA",
+        "Data Cleaning",
+        "Survey Analysis",
+        "Web Scraping",
+        "API Integration",
+        "Data Visualization",
+        "Tech Trends"
+    ],
+
+    resumeCourt: 
+        "Analyse complète du Stack Overflow Survey 2024 : pipeline de nettoyage, exploration avancée, visualisations professionnelles et insights stratégiques sur les pratiques technologiques.",
+
+    resumeDetail: 
+        "Projet analytique structuré visant à comprendre en profondeur l’écosystème technologique mondial en 2024. Le travail inclut : traitement d’un dataset de plus de 65 000 répondants, nettoyage avancé, normalisation, gestion des valeurs manquantes, analyse descriptive, extraction de tendances et construction de visualisations de haut niveau. L’étude couvre les usages réels des langages, les préférences technologiques, les niveaux de satisfaction, les salaires, les profils professionnels, ainsi que des analyses croisées (pays, expérience, statut, industrie). Le projet intègre également des données externes via API et web scraping pour enrichir l’analyse. Livrables : notebooks documentés, pipeline analytique, graphiques exploitables et rapport final.",
+
+    lienGithub: "https://github.com/salma91AFG/Technology-Trends-Analytics",
     image: "img/stackoverflow.png"
   },
   {
