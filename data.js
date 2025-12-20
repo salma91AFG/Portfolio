@@ -35,7 +35,16 @@ const projectsData = [
     resumeDetail: "Projet de préparation et d’analyse du dataset Olist (e-commerce brésilien). Travail complet de data wrangling : correction des types, normalisation des textes, suppression des doublons et traitement des valeurs manquantes. Création de variables clés telles que la durée réelle de livraison, le retard, le montant total de commande et les indicateurs de performance logistique. Jointures multi-tables pour enrichir les données clients. Analyse exploratoire axée sur la satisfaction : impact du retard, catégories de produits à risque, performance des vendeurs et dynamique des livraisons.",
     lienGithub: "https://github.com/salma91AFG/data_wrangling.git",
     image: "img/dataWrangling.png"
-  }
+  },
+  {
+    id: "survey-rapport2024",
+    titre: "Analyse du paysage technologique 2024 - Rapport Power BI",
+    tags: ["Power Query", "Power BI", "Visualisation","DAX", "Data Analysis","Data Cleaning","Survey Analysis","Tech Trends",],
+    resumeCourt: "Analyse interactive du paysage technologique 2024 avec Power BI : profils des développeurs, usage des langages, écosystème technologique et indicateurs de marché issus du Stack Overflow Developer Survey.",
+    resumeDetail: "Projet de Business Intelligence basé sur le Stack Overflow Developer Survey 2024. Exploitation d’un dataset préalablement nettoyé en Python, chargé via script Python dans Power BI. Conception d’un modèle analytique structuré en schéma en étoiles, avec tables de faits et dimensions dérivées d’une table source unique et désactivation des tables intermédiaires. Développement de mesures DAX robustes pour calculer pourcentages d’utilisation, salaires moyens, comparaisons usage vs demande et gestion avancée du contexte de filtre. Construction d’un rapport interactif orienté storytelling, structuré autour du profil des développeurs, des langages de programmation et de l’écosystème technologique, afin de fournir une lecture claire et décisionnelle des tendances du marché technologique en 2024.",
+    lienGithub: "https://github.com/salma91AFG/trend_technology_rapport_powerBI",
+    image: "img/rapportPowerBi.png"
+  },
 
   
 ];
