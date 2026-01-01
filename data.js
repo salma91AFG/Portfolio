@@ -45,6 +45,61 @@ const projectsData = [
     lienGithub: "https://github.com/salma91AFG/trend_technology_rapport_powerBI",
     image: "img/rapportPowerBi.png"
   },
+{
+  id: "powerbi-geo-weather-app",
+
+  titre: "Power BI Data App – Exploration géographique et météo mondiale",
+
+  tags: [
+    "Power BI",
+    "Power Query",
+    "API Integration",
+    "REST API",
+    "Data Modeling",
+    "DAX",
+    "Data Visualization",
+    "Geospatial Analysis",
+    "Interactive Dashboard",
+    "UX Analytics"
+  ],
+
+  resumeCourt:
+    "Application analytique Power BI permettant l’exploration interactive des pays du monde à travers des données géographiques, démographiques et météorologiques en temps réel, intégrées via APIs REST.",
+
+  resumeDetail:
+    "Conception d’une application analytique Power BI orientée exploration des données plutôt que rapport d’analyse classique. Le projet repose sur l’intégration de deux APIs REST (RestCountries et Open-Meteo) via Power Query, avec nettoyage, transformation et normalisation de données complexes (listes, structures imbriquées, valeurs multiples). Mise en place d’un modèle centré sur l’entité Pays, enrichi par des tables de référence (langues, continents, monnaies, codes météo). Développement de mesures DAX pour la gestion dynamique des métriques (population, superficie, température, vent). Construction d’une carte choroplèthe interactive avec filtres avancés et infobulles personnalisées intégrant données socio-démographiques, météo temps réel, drapeaux et icônes météo dynamiques. Le projet met l’accent sur l’UX, la navigation analytique et la consommation de données externes.",
+
+  lienGithub: "https://github.com/salma91AFG/PowerBI-World-Geo-Weather",
+  image: "img/geoWeatherPowerBI.png"
+},
+{
+  id: "powerbi-sales-dashboard",
+
+  titre: "Power BI – Tableau de bord décisionnel de performance commerciale",
+
+  tags: [
+    "Power BI",
+    "Power Query",
+    "DAX",
+    "Business Intelligence",
+    "Sales Dashboard",
+    "KPI Tracking",
+    "Star Schema",
+    "Data Modeling",
+    "Row Level Security",
+    "Data Visualization"
+  ],
+
+  resumeCourt:
+    "Tableau de bord Power BI dédié au pilotage des performances commerciales, au suivi des ventes et à l’analyse des commandes annulées, avec KPI, filtres avancés et navigation interactive.",
+
+  resumeDetail:
+    "Projet de Business Intelligence orienté pilotage opérationnel des ventes. À partir d’un fichier CSV brut, les données ont été nettoyées, typées et normalisées dans Power Query, puis modélisées selon un schéma en étoile avec une table de faits (Commandes) et des dimensions dédiées (Clients, Produits, Régions, Date). Création d’une table de mesures centralisant les KPI clés (chiffre d’affaires, nombre de commandes, quantités vendues, commande moyenne, taux d’annulation). Développement de deux tableaux de bord : suivi global des ventes et analyse spécifique des commandes annulées. Mise en œuvre de visualisations avancées (courbes, barres, donut, treemap, ruban), de tooltips personnalisées, de signets (bookmarks), d’un menu de navigation, de règles de sécurité RLS et d’une version mobile du rapport. Le tableau de bord est conçu pour un usage décisionnel récurrent par des équipes commerciales ou de gestion.",
+
+  lienGithub: "https://github.com/salma91AFG/PowerBI-Sales-Performance",
+  image: "img/salesDashboardPowerBI.png"
+}
+
 
   
 ];
