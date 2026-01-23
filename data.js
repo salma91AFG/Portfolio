@@ -1,34 +1,7 @@
 // data.js
 
 const projectsData = [
-  {
-  id: "excel-sales-bi-dashboard",
 
-  titre: "Excel BI – Tableau de bord décisionnel de performance commerciale",
-
-  tags: [
-    "Excel",
-    "Power Query",
-    "Power Pivot",
-    "DAX",
-    "Business Intelligence",
-    "Sales Performance",
-    "Star Schema",
-    "Data Modeling",
-    "KPI Tracking",
-    "Decision Support"
-  ],
-
-  resumeCourt:
-    "Tableau de bord décisionnel construit sous Excel pour l’analyse de la performance des ventes, basé sur Power Query, Power Pivot et DAX, destiné aux PME.",
-
-  resumeDetail:
-    "Projet de Business Intelligence démontrant l’utilisation avancée d’Excel comme outil décisionnel pour les PME. Les données sont préparées et fiabilisées via Power Query (ETL), puis modélisées dans Power Pivot selon un schéma en étoile avec une table de faits Ventes et des dimensions Produits, Magasins et Dates. L’ensemble de la logique métier est centralisé dans des mesures DAX (chiffre d’affaires, quantités, marges, croissance YoY, part des ventes). Le dashboard interactif permet le suivi de la performance commerciale, la comparaison des magasins et des produits, ainsi que l’analyse temporelle, sans aucun calcul métier dans les cellules Excel. Le projet met en avant une approche structurée, maintenable et orientée prise de décision, adaptée aux contraintes des petites et moyennes entreprises.",
-
-  lienGithub: "https://github.com/salma91AFG/sales-performance-dashboard-excel",
-  image: "img/ExcelDashbord.png"
-}
-,
   {
     id: "stackoverflow2024",
     titre: "Analyse du paysage technologique 2024 – Stack Overflow Developer Survey",
@@ -126,6 +99,34 @@ const projectsData = [
 
   lienGithub: "https://github.com/salma91AFG/PowerBI-Sales-Performance",
   image: "img/salesDashboardPowerBI.png"
+}
+,
+ {
+  id: "excel-sales-bi-dashboard",
+
+  titre: "Excel BI – Tableau de bord décisionnel de performance commerciale",
+
+  tags: [
+    "Excel",
+    "Power Query",
+    "Power Pivot",
+    "DAX",
+    "Business Intelligence",
+    "Sales Performance",
+    "Star Schema",
+    "Data Modeling",
+    "KPI Tracking",
+    "Decision Support"
+  ],
+
+  resumeCourt:
+    "Tableau de bord décisionnel construit sous Excel pour l’analyse de la performance des ventes, basé sur Power Query, Power Pivot et DAX, destiné aux PME.",
+
+  resumeDetail:
+    "Projet de Business Intelligence démontrant l’utilisation avancée d’Excel comme outil décisionnel pour les PME. Les données sont préparées et fiabilisées via Power Query (ETL), puis modélisées dans Power Pivot selon un schéma en étoile avec une table de faits Ventes et des dimensions Produits, Magasins et Dates. L’ensemble de la logique métier est centralisé dans des mesures DAX (chiffre d’affaires, quantités, marges, croissance YoY, part des ventes). Le dashboard interactif permet le suivi de la performance commerciale, la comparaison des magasins et des produits, ainsi que l’analyse temporelle, sans aucun calcul métier dans les cellules Excel. Le projet met en avant une approche structurée, maintenable et orientée prise de décision, adaptée aux contraintes des petites et moyennes entreprises.",
+
+  lienGithub: "https://github.com/salma91AFG/sales-performance-dashboard-excel",
+  image: "img/ExcelDashbord.png"
 }
 
 
